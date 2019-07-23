@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equipos"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/image1"
+            android:src="@drawable/colombia"
+            android:layout_marginLeft="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/image2"
+            android:src="@drawable/brazil"
+            android:layout_marginLeft="220dp"/>
+
+        <TextView
+            android:id="@+id/EdtEquipo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-290dp"
+            android:layout_marginTop="20dp"
+            android:text="Colombia"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brazil"
+            android:id="@+id/EdtEquipo2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/EdtMarcador1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginTop="50dp"
+            android:text="0"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/EdtMarcado2"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
